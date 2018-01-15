@@ -1,0 +1,146 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* outline: dotted red; */
+}
+
+#wrapper {
+    width: 970px;
+    margin: 10px auto;
+    background: radial-gradient(circle, white, #330000);
+}
+
+#header {
+    background-color: #e5e4e4;
+    padding: 10px;
+}
+
+h1 {
+    display: inline-block;
+    width: 48%;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+h2 {
+    display: inline-block;
+    width: 48%; 
+    font-size: 12pt;
+    text-align: right;
+}
+
+#about, #mywork {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#about img {
+    width: 43%;
+    padding: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: inline-block;
+    border: 5px solid lightgray;
+}
+
+#bio {
+    width: 45%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+}
+
+#bio h3 {
+    width: 94%;
+}
+
+h3 {
+    background: linear-gradient(#cccccc,#666666, #cccccc);
+    display: inline-block;
+    color: white;
+    font-size: 16pt;
+    padding: 3%;
+} 
+
+#bio p, .proj_des p {
+    width: 94%;
+    padding: 3%;
+}
+
+a {
+    color: unset;
+}
+
+.proj_des, .proj_tech {
+    width: 29.5%;
+    margin-left: 25px;
+    vertical-align: top;
+    display: inline-block;
+    background: linear-gradient(to right, #ffffff, #dbccda);
+}
+
+.proj_des h3{
+    width: 94%;
+    font-size: 16pt;  
+    display: block;
+}
+
+.proj_des p {
+    display: inline-block;
+    height: 180px;
+}
+
+.proj_des img {
+    width: 100%;
+}
+
+#technologies {
+    width: 100%;
+}
+
+.proj_tech h3{
+    width: 94%;
+    font-size: 12pt;   
+}
+
+.proj_tech img {
+    width: 14%;
+    padding: 6px;
+}
+
+.button {
+    background-color: #407d61;
+    display: block;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 10px 75px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #e5e4e4;
+    padding: 3px;
+}
+
+#footer p {
+    width: 99%;
+    padding: 1%;
+    font-size: 11pt;
+    text-align: center;
+}
+#footer a img {
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+#footer p a {
+    font-style: italic;
+}
