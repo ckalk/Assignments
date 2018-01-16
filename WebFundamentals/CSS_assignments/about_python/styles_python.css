@@ -1,0 +1,192 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 10px auto;
+    background-color: #35668f;
+}
+
+#header img {
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 380px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#txtsrch {
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#txtsrch p {
+    font-size: 8pt;
+    color: white;
+    text-align: center;
+}
+
+#txtsrch p a {
+    font-size: 8pt;
+    color: gold;
+    text-decoration: underline;
+}
+
+#search {
+    margin-top: 5px;
+    background-color: #444444;
+    border-radius: 10px;
+    padding: 10px;
+    width: 220px;
+    box-shadow: 2px 2px black;
+}
+
+#search input[type=text] {
+    padding: 5px;
+    width: 120px;
+    margin-left: 30px;
+    /* color: lightgray;  */
+    text-align: center;
+    border: none;
+  }
+
+#search button {
+    float: right;
+    padding: 5px 7px;
+    margin-right: 16px;
+    background: #35668f;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;    
+  }
+  
+  #menubar {
+    margin-top: 5px;
+    margin-left: 85px;
+    background: linear-gradient(#4784b6,#79a2c3,#4784b6);
+    border-radius: 5px;
+    padding: 12px;
+    width: 820px;
+    box-shadow: 4px 4px black;
+}
+
+#menubar a {
+    font-size: 22px;
+    color:white;
+    text-decoration: unset;
+    margin-left: 40px;
+}
+
+ul.quicklinks {
+    display: inline-block;
+    text-align: center;
+    list-style-position: inside;
+    color: white;
+    padding: 30px;
+}
+
+ul.quicklinks li {
+    font-size: 16px;
+    margin: 10px;
+}
+
+ul.quicklinks li a {
+    color: white;
+}
+
+#aboutzen {
+    width: 640px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+p.about {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+p.zen {
+    color: #ffe03e;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p.zenref {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#moreinfo {
+    background: white;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.howto {
+    display: inline-block;
+    vertical-align: top;
+    width:400px;
+    border-top: 5px solid #6aa1cf;;
+    margin-right: 20px;
+}
+
+p.howtotitle {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+}
+
+p.howtodes {
+    font-size: 12px;
+    text-align: center;
+}
+
+.howto ul{
+    list-style-type: square;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.howto ul li {
+    font-size: 12px;
+    text-align: center;
+    margin: 6px;
+}
+
+.blue {
+    color: #6aa1cf;
+}
+
+#footer {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#footer a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6aa1cf;
+    text-decoration: unset;
+    margin: 20px;
+}
+
+#footer p {
+    color: #6aa1cf;
+    font-size: 9px;
+    margin-top: 10px;
+}
