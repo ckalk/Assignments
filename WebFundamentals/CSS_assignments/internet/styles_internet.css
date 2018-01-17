@@ -1,0 +1,245 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    /* outline: dotted red; */
+}
+#wrapper {
+    width: 970px;
+    margin: 10px auto;
+    background: linear-gradient(#e4e4e4,white, white);
+}
+
+.textblue {
+    color: #2a699d;
+}
+
+.textaqua {
+    color: #14c3de;
+}
+
+.textred {
+    color: red;
+}
+
+.textbold {
+    font-weight: bold;
+}
+
+#header {
+    background-color: white;
+    position: relative;
+}
+
+h1 {
+    padding: 20px 0px 10px 90px;
+    font-size: 40px;
+}
+
+#header h2 {
+    background: linear-gradient(#4784b6,#79a2c3,#4784b6);
+    color: white;
+    font-size: 30px;
+    font-stretch: extra-expanded;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#header img {
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 215px;
+    margin-left: 5px;
+}
+
+#sidebar h4 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#sidebar p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: block;
+    width: 90%;
+    color: white;
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 4px 4px #666666;
+    cursor: pointer;
+}
+
+.gradientblue {
+    background: linear-gradient(#79a2c3,#4784b6);
+}
+
+.gradientorange {
+    background: linear-gradient(#e8a652,#f47300);
+}
+
+.gradientaqua {
+    background: linear-gradient(#77d0de,#04cbe9);
+}
+
+#sidebar hr {
+    color: #666666;
+    border-width: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#ad {
+    background-image: url("images/ad_background.png");
+    background-color: #cccccc;
+    height: 250px;
+    padding: 25px 15px 25px 15px;
+    text-align: center;
+}
+
+#ad p {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 130%;
+}
+
+#ad img {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.adbutton {
+    display: block;
+    width: 90%;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px #666666;
+    cursor: pointer;
+}
+
+#main{
+    display: inline-block;
+    width: 700px;
+    margin-left: 35px;
+}
+
+/* #mainheader {
+    display: inline-block;
+} */
+
+#mainheader img {
+    width: 15px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+#mainheader a {
+    vertical-align: top;
+    color: #2a699d;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#contact{
+    width: 220px;
+    display: inline-block;
+    margin-left: 420px;
+}
+
+#contact img {
+    width: 50px;
+}
+
+p.smalltext {
+    font-size: 11px;
+    text-align: center;
+    display: inline-block;
+}
+
+.tel {
+    font-size: 25px;
+    font-weight: bold;
+    color: #14c3de;
+    text-align: center;
+}
+
+#main hr {
+    color: #666666;
+    border-width: 2px;
+    margin-top: 15px;
+}
+
+#topic {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a699d;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.topic p, #big3 p {
+    font-size: 15px;
+}
+
+.topic li {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 6px;
+
+}
+.topic img {
+    width: 250px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.borderbox {
+    width: 660px;
+    margin-top: 20px;
+    border: 5px solid #2a699d;;
+    border-bottom-style: none;
+}
+
+.borderbox img {
+    width: 115px;
+    padding: 10px;
+}
+
+#big3 {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#big3 p a {
+    color: #14c3de;
+    font-size: 15px;
+    text-decoration: none;
+}
