@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <title>Testing Javascript Code</title>
+	<script type="text/javascript">
+        "use strict;"
+       console.log("----------  Return Odds Array 1-255   -----------");
+        var arrOdds = [];
+        function returnOddsArray1To255() {
+            var indx = 0;
+            for(var i = 1; i < 256; i=i+2) {
+                arrOdds[indx] = i;
+               indx++;
+            }
+            return(arrOdds);
+        }
+        returnOddsArray1To255();
+        console.log(arrOdds); 
+                
+    </script>
+</head>
+</html>

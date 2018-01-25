@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+#wrapper {
+    width: 860px;
+    background-color: lightgray;
+    margin: 0px auto;
+    padding: 25px;
+    overflow: hidden;
+    }
+
+h1{
+    display: inline-block;
+    margin: 20px;
+    }
+
+.chloe {
+    width: 190px;
+    padding: 5px;
+    background-color: #77b6ea;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    }
+.chloe img {
+    width: 190px;
+    }
+
+button {
+    background-color: yellow;
+    color: blue;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    font-size: 20px;
+}

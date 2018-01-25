@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>jQuery Exercise</title>
+    <style>
+        p {
+            margin: 8px;
+            font-size: 16px;
+        }
+        .red {
+            color:red;
+        }
+        .highlight {
+            background: yellow;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    
+        $("h1").text('My jQuery basic assignment!');
+
+        $('#webaddress').val('http://localhost/jQuery.html'); //put a value in the input with id="webaddress"
+
+        $( ".AddClass .action" ).html('AddClass');//set the button label
+        $( ".AddClass .action" ).click(
+            function() {$( ".AddClass p" ).addClass( "red" );
+            });//add a class="red" to the p tag when the button is clicked
+
+        $( ".Slidetoggle .action" ).html('Slidetoggle');//set the button label
+        $( ".Slidetoggle .action" ).click(
+            function() {$( ".Slidetoggle img" ).slideToggle()
+            });//cause image to display or hide (with a sliding motion) when button is clicked
+
+        $( ".Append .action" ).html('Append');//set the button label
+        $( ".Append .action" ).click(
+            function() {$( ".Append p" ).append( "<p>This is a new paragraph appended by clicking</p>" );
+            }); //append a new paragraph when button is clicked
+
+        $( ".After .action" ).html('After');//set the button label
+        $( ".After .action" ).click(
+            function() {$( ".After p" ).after( "<p>This is a new paragraph added after by clicking</p>" );
+            }); //add a new paragraph after, when button is clicked
+    });
+
+</script>
+<body>
+    <div id="header">
+            <h1></h1>
+            <input id="webaddress" type="text">   
+    </div>
+    <div class="AddClass">
+        <h2>AddClass</h2>
+        <button class="action">label</button>
+        <p>Click the button to add class 'red' to this paragraph</p>
+    </div>
+    <div class="Slidetoggle">
+            <h2>Slidetoggle</h2>
+            <img src="images/myprofile.png" alt="Me" visibility="hidden">
+            <button class="action">label</button>
+            <p>Click the button to slidetoggle a hidden image</p>
+    </div>
+    <div class="Append">
+        <h2>Append</h2>
+        <button class="action">label</button>
+         <p>Click the button to APPEND a new paragraph to this one</p>
+    </div>
+    <div class="After">
+        <h2>After</h2>
+         <button class="action">label</button>
+         <p>Click the button to add a new paragraph AFTER this one</p>
+    </div>
+
+</body>
+</html>
