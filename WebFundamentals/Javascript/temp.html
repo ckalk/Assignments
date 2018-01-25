@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Create a simple HTML page with 3 images of equal width and height (you can use any image you like). When the mouse hovers on an image, have that be replaced by another image (on the same position).  When the mouse hovers out of the image, bring the original image back. -->
+<html lang="en">
+
+<head>
+    <title>Hover In and Out</title>
+    <link rel="stylesheet" type="text/css" href="css_hover-in-out.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        //attach a hover event listener to all the img tags when the document is ready
+            $('img').click(function(){
+                $(this).hide();
+            });
+          
+        });
+    </script>
+<body>
+
+<div id="wrapper">
+    <h1>"jQuery Assignment - Hover In and Out"</h1>
+ 
+    <img src="images/flower1.jpg" alt="flower pic" > 
+    <img src="images/flower2.jpg" alt="flower pic" > 
+    <img src="images/flower3.jpg" alt="flower pic" > 
+
+
+</div><!-- end of wrapper -->
+</body>
+</html>

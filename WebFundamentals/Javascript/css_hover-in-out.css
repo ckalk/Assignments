@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+#wrapper {
+    width: 1020px;
+    background-color: lightgray;
+    margin: 0px auto;
+    padding: 25px;
+    overflow: hidden;
+    }
+
+h1{
+    margin: 20px;
+    }
+
+img {
+    width: 300px;
+    padding: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    }
+
+
