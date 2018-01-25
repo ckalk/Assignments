@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+#wrapper {
+    width: 860px;
+    background-color: lightgray;
+    margin: 0px auto;
+    padding: 25px;
+    overflow: hidden;
+    }
+
+h1{
+    display: inline-block;
+    margin: 20px;
+    }
+p {
+    padding: 10px;
+}
+
+#cat-ninja img {
+    width: 181px;
+    margin-bottom: 12px;
+    display: block;
+    }
