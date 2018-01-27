@@ -10,7 +10,7 @@ $(document).ready(
                 $('input[name="email"]').val() + 
                 '</td><td>' + $
                 ('input[name="contact"]').val() + '</td></tr>');
-                document.getElementById("addUser").reset();
+                $("#addUser")[0].reset();
                 return false;
              }
         )
