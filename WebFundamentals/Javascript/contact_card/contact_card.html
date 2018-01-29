@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Exercise: Contact Card</title>
+    <link rel="stylesheet" href="css_contact_card.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='script_contact_card.js'></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>jQuery Exercise: Creating Contact Cards</h1>
+        <div id="input-form">
+            <!-- form to accept input for new contact card -->
+            <h2>Add New Card</h2>
+            <form id="new-card">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" placeholder="Enter first name" size=40><br>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" placeholder="Enter last name" size=40><br>
+                
+                <label for="description">Description:</label>
+                <textarea form="new-card" name="description" placeholder="Enter description"></textarea><br>
+                
+                <input type="submit" value="Add User">
+            </form>
+        </div>
+
+        <div id="display-cards">
+            <h2>Show All Cards</h2>
+
+
+        </div>
+
+    </div>    
+</body>
+</html>
