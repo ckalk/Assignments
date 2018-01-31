@@ -1,0 +1,22 @@
+<!-- Some URLs have JSON (JavaScript Object Notation) that we can use. JSON is just one of many ways of representing data. Navigate to  https://pokeapi.co/api/v2/pokemon/1/ to see JSON data about Bulbasaur. This means that instead of having our own database about Bulbasaur, we can just refer to this link to get more data about this Pokemon.
+Thanks to jQuery, we have a convenient function $.get to do AJAX (which is a way of getting information from another URL without having to reload your own page). If we were to do it using pure JavaScript (which is how $.get function in jQuery is implemented), we would have to write a lot of code to make AJAX work for all different types and versions of browsers. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gotta Catch'em All</title>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $.get("https://pokeapi.co/api/v2/pokemon/1/", function(res) {
+                    console.log(res);
+                }, "json");
+            })
+        </script>
+    </head>
+    <body>
+        <div id="bulbasaur">
+        </div>
+    </body>
+</html>
