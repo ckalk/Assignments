@@ -18,7 +18,7 @@ $(document).ready(function() {
                 url: searchURL,
             
                 // The data to send (will be converted to a query string)
-                data: {},
+                // data: {},
             
                 // Whether this is a POST or GET request
                 type: "GET",
