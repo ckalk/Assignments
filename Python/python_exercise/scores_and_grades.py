@@ -37,5 +37,6 @@ for i in range(10):
     random_num = random.randrange(100)
     gr = grade(random_num )
     print "Score: ", random_num, " ; Your grade is", gr
+print "End of the program. Bye!"
 
 
