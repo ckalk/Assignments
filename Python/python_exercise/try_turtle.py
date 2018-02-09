@@ -82,30 +82,36 @@ for counter2 in range (0,150):
 print "--- drawing fractal tree -----"
 loadWindow = turtle.Screen()
 turtle.speed(0)
-def tree(branchLen,t):
+def tree(branchLen,t,rdc,shft):
     t.color("green")
-    if branchLen > 5: #if branch length greater than 5, branch again
-        if branchLen <20:
+    if branchLen > 10: #if branch length greater than 10, branch again
+        if branchLen <12:
             t.color("red") #if branch length getting small, change to color red
+        #make reduction in branchLen successively smaller, rather than a fixed amt; ditto for distance to veer right/left when branching
+        newLen =max(branchLen-branchLen*rdc, 10)
+        newShift = max(branchLen*shft, 15)
+        # print branchLen, newLen, newShift
         t.forward(branchLen)
         t.color("green")
-        t.right(20)
-        tree(branchLen-10,t)
-        t.left(40)
-        tree(branchLen-10,t)
-        t.right(20)
+        t.right(newShift)
+        tree(newLen,t,rdc,shft)
+        t.left(newShift*2)
+        tree(newLen,t,rdc,shft)
+        t.right(newShift)
         t.penup()
         t.backward(branchLen)
         t.pendown()
 
 def main():
     t = turtle.Turtle()
+    reduceFactor = .15
+    shiftFactor = .25
     myWin = turtle.Screen()
     t.left(90)
     t.up()
     t.backward(200)
     t.down()
-    tree(75,t)
+    tree(75,t,reduceFactor,shiftFactor)
     myWin.exitonclick()
 
 main()
