@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+#wrapper {
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+div.row div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: blue;
+}
+
+div.empty {
+
+} 
+
+div.coin {
+    background-image:url("images/coin.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.pacman {
+    background-image:url("images/web-munch-munch.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}  
