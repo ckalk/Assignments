@@ -1,0 +1,130 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* outline: red dotted; */
+    }
+
+    .textaqua {
+        color: aqua;
+    }
+
+    #wrapper{
+       width: 830px;
+       background-color: #dddfd4;
+       margin: 0px auto;
+       overflow: hidden;
+       padding: 20px;
+       height: auto;
+    }
+
+   #header {
+       background-color: #3fb0ac;
+       height: 36px;
+       margin-bottom: 25px;
+       padding: 12px;
+    }
+
+    #header img {
+        height: 36px;
+        display: inline-block;
+    }
+
+    h1 {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 28px;
+        margin-right: 100px;
+    }
+
+    #header a {
+        display: inline-block;
+        vertical-align: top;
+        color:white;
+        text-decoration: none;
+        padding: 10px 10px 0px 0px;
+    }
+
+    #main {
+        background-color: #fae596;
+        height: 445px;
+        padding: 20px;
+        margin-bottom: 10px;
+     }
+
+     h2 {
+         padding-bottom: 10px;
+         padding-top: 10px;
+     }
+
+     p{
+         font-size: 12px;
+         line-height: 150%;
+         margin-left: 10px;
+     }
+     #sidebar {
+        background-color: #173f43;
+        color: white;
+        width: 180px;
+        height: 420px;
+        padding: 15px;
+        margin-bottom: 10px;
+        display: inline-block;
+     }
+
+     #content {
+        width: 550px;
+        height: auto;
+        display: inline-block;
+        vertical-align: top;
+     }
+
+     h3 {
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
+
+     .smallbox {
+        background-color: #173f43;
+        color: white;
+        width: 130px;
+        height: 130px;
+        padding: 10px;
+        margin-left: 25px; 
+        margin-bottom: 25px; 
+        display: inline-block;
+        vertical-align: top;
+     }
+
+     .mediumbox {
+        background-color: #173f43;
+        color: white;
+        width: 220px;
+        height: 105px;
+        padding: 10px;
+        margin-left: 25px; 
+        margin-bottom: 25px; 
+        display: inline-block;
+        vertical-align: top;
+     }
+
+     .largebox {
+        background-color: #173f43;
+        color: white;
+        width: 490px;
+        height: 105px;
+        padding: 10px;
+        margin-left: 25px; 
+        margin-bottom: 25px; 
+        display: inline-block;
+        vertical-align: top;
+     }
+
+   #footer {
+        background-color: #3fb0ac;
+        color: white;
+        height: 20px;
+        padding:20px;
+        text-align: center;
+    }
