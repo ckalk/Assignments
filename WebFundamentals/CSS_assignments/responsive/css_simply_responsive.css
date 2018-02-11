@@ -1,0 +1,57 @@
+.col {
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightgray;
+    width: 100%;
+}
+.row {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 480px){
+    .sm-0 {
+        /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+     }
+     .sm-1 {
+        /* we display 100% of width if class .sm-1 if the screen's width is less than 480px */
+        display: inline-block;
+        background-color: yellow;
+        display: 100%;
+     }
+}
+@media only screen and (min-width: 481px){
+    .med-0 {
+        /* we will not display anything with the class .med-0 if the screen's width is greater than 480px */
+        display: none;
+    }
+    .med-1 {
+        /* anything with the class .med-1 will get 100% of the available width if the screen's width is greater than 480px */
+        display: inline-block;
+        background-color: yellow;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .lg-0 {
+        /* we will not display anything with the class .lg-0 if the screen's width is greater than or equal to 1024px */
+        display: none;
+    }
+    .lg-1 {
+        /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+        display: inline-block;
+        background-color: yellow;
+        width: 100%;
+    }
+}
+    h1 {
+        background-color: darkgray;
+        width: 100%;
+    }
+
+    .bold {
+        font-weight: bolder;
+    }
+
+   
