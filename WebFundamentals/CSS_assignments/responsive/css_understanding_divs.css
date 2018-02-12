@@ -1,0 +1,90 @@
+/*CSS reset settings here*/
+*{
+    margin: 1%;
+    padding: 0px;
+    outline: red dotted;
+   }
+ 
+   #wrapper{
+    width: 98%;
+    margin: 0px auto;
+    background-color: lightgray;
+   }
+   #header{
+    height: 100px;
+    background-color: green;
+   }
+
+   #main {
+    height: auto;
+    border: 2px dotted  black;
+   }
+
+   #navigation{
+    height: 200px;
+    width: 20%;
+    /* float: left; */
+    background-color: blue;
+   }
+
+   #id_in_wrapper {
+    width: 98%;
+    height: 50px;
+    background-color: lightpink;
+   }
+
+   .class_in_wrapper {
+    width: 98%;
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 1%;
+   }
+
+   @media only screen and (max-width: 480px){
+    .sm-0 {
+        /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+    .sm-1 {
+        /* we display 100% of width if class .sm-1 if the screen's width is less than 480px */
+        display: block;
+        width: 98%;
+    }
+}
+@media only screen and (min-width: 481px){
+    .med-0 {
+        /* we will not display anything with the class .med-0 if the screen's width is greater than 480px */
+        display: none;
+    }
+    .med-1 {
+        /* anything with the class .med-1 will get 100% of the available width if the screen's width is greater than 480px */
+        display: block;
+        width: 98%;
+    }
+    .med-2 {
+        /* anything with the class .med-1 will get 100% of the available width if the screen's width is greater than 480px */
+        display: block;
+        width: 45%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .lg-0 {
+        /* we will not display anything with the class .lg-0 if the screen's width is greater than or equal to 1024px */
+        display: none;
+    }
+    .lg-1 {
+        /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+        display: block;
+        width: 98%;
+    }
+    .lg-3 {
+        /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+        display: block;
+        width: 70%;
+    }
+    .lg-4 {
+        /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+        display: block;
+        width: 22%;
+    }
+}

@@ -1,0 +1,100 @@
+/*CSS reset settings here*/
+*{
+    margin: 1%;
+    padding: 0px;
+    outline: red dotted;
+   }
+ 
+   #wrapper{
+    width: 98%;
+    margin: 0px auto;
+    background-color: lightgray;
+   }
+   #header{
+    height: 100px;
+    background-color: green;
+   }
+   #main {
+    height: auto;
+    border: 2px dotted  black;
+   }
+
+   #navigation{
+    height: 200px;
+    width: 20%;
+    background-color: blue;
+   }
+    #main_content{
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    /* width: 72%;  */
+    padding: 10px;
+    background-color: red;
+   }
+   .subcontents{
+    height: 150px;
+    float: left;
+    background-color: yellow;
+   }
+   #advertisement{
+    height: 100px;
+    width: 96%;
+    float: left;
+    margin-top: 20px;
+    background-color: purple;
+   } 
+   @media only screen and (max-width: 480px){
+        .sm-0 {
+            /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+            display: none;
+        }
+        .sm-1 {
+            /* we display 100% of width if class .sm-1 if the screen's width is less than 480px */
+            display: inline-block;
+            vertical-align: top;
+            width: 95%;
+        }
+    }
+    @media only screen and (min-width: 481px){
+        .med-0 {
+            /* we will not display anything with the class .med-0 if the screen's width is greater than 480px */
+            display: none;
+        }
+        .med-1 {
+            /* anything with the class .med-1 will get 100% of the available width if the screen's width is greater than 480px */
+            display: inline-block;
+            vertical-align: top;
+            width: 95%;
+        }
+        .med-2 {
+            /* anything with the class .med-1 will get 100% of the available width if the screen's width is greater than 480px */
+            display: inline-block;
+            vertical-align: top;
+            width: 45%;
+        }
+    }
+    @media only screen and (min-width: 1000px){
+        .lg-0 {
+            /* we will not display anything with the class .lg-0 if the screen's width is greater than or equal to 1024px */
+            display: none;
+        }
+        .lg-1 {
+            /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+            display: inline-block;
+            vertical-align: top;
+            width: 95%;
+        }
+        .lg-3 {
+            /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+            display: inline-block;
+            vertical-align: top;
+            width: 70%;
+        }
+        .lg-4 {
+            /* anything with the class .lg-1 will get 100% of the available width if the screen's width is greater than or equal to 1024px */
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+        }
+    }
