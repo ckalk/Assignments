@@ -9,7 +9,7 @@ function remove_shorter_strings (strarr, val) {
             j++ ;
         }
     }
-    strarr.length = j-1;
+    strarr.length = j;
     return(strarr);
 }
 
